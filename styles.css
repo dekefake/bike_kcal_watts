@@ -33,7 +33,7 @@ button, input {
     font-size: 2em;
 }
 
-#watts {
+#minutes {
 	margin-right: 16px;
 }
 
@@ -52,6 +52,7 @@ b, p {
 }
 
 .bike {
+	display:none;
 	width: 400px;
     height: 400px;
     bottom: 0;
