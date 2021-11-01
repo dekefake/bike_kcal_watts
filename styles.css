@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    background: ##F97819;
+}
+
 #cont {
 	display: flex;
     flex-direction: column;
@@ -8,10 +13,23 @@
 }
 
 #cont * {
-	height: 2em;
-	margin: 5vh auto;
+	color: white;
+    font-family: system-ui;
 }
 
-button {
-    height: 3em;
+button, input {
+    height: 4em!important;
+    background-color: black;
+    border-radius: 2em;
+    border: 1px solid black;
+    padding: 1em 3em;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+p {
+	margin-top: 16px;
+	font-size: 1.5em;
 }
