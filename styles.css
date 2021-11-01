@@ -1,0 +1,17 @@
+#cont {
+	display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    text-align: center;
+    margin: 10vh auto;
+    justify-content: space-evenly;
+}
+
+#cont * {
+	height: 2em;
+	margin: 5vh auto;
+}
+
+button {
+    height: 3em;
+}
