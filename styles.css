@@ -14,9 +14,8 @@ body {
 #cont {
 	display: flex;
     flex-direction: column;
-    max-width: 500px;
     text-align: center;
-    margin: 10vh auto;
+    margin: 10vh 32px;
     justify-content: space-evenly;
 }
 
@@ -26,18 +25,29 @@ body {
 }
 
 button, input {
-    height: 4em!important;
+	text-align: center;
+    height: 5em!important;
     background-color: black;
-    border-radius: 2em;
+    border-radius: 4em;
     border: 1px solid black;
     padding: 1em 3em;
+    font-size: 2em;
 }
 
 h2 {
+	font-size: 8em;
+}
+
+b, p {
+	margin-top: 32px;
 	font-size: 3em;
 }
 
-b {
-	margin-top: 16px;
-	font-size: 1.5em;
+.bike {
+	width: 400px;
+    height: 400px;
+    bottom: 0;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
 }
